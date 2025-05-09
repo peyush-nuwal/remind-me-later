@@ -2,7 +2,7 @@
 # Remind me later
 
 
-A simple web app that allows users to set reminders with a message. The app supports storing reminders in a database and will later support sending reminders via SMS or email.
+This is the backend API for the Remind-Me-Later web app, built using **Django**. It allows users to save reminders with a message, date, time, and reminder type. Currently, the app supports reminders via SMS and Email, with more options possible in the future.
 
 
 
@@ -47,40 +47,40 @@ A simple web app that allows users to set reminders with a message. The app supp
 To run this app locally, follow these steps:
 
 1. **Clone the repository**
-```bash
-git clone https://github.com/peyush-nuwal/remind-me-later.git
-cd remind-me-later
-```
+  ```bash
+  git clone https://github.com/peyush-nuwal/remind-me-later.git
+  cd remind-me-later
+  ```
 
 2. **Set up a virtual environment**
-```bash
-python -m venv venv
-```
+  ```bash
+  python -m venv venv
+  ```  
 
 3. **Activate the virtual environment**
- on Windows
-```bash
-venv\Scripts\activate
-
-```
-on macOS/Linux
-```bash
-source venv/bin/activate
-
-```
+-  on Windows
+  ```bash
+  venv\Scripts\activate
+  
+  ```
+- on macOS/Linux
+  ```bash
+  source venv/bin/activate
+  
+  ```
 
 4. **Install the required dependencies**
-```bash
-pip install -r requirements.txt
-
-```
+  ```bash
+  pip install -r requirements.txt
+  
+  ```
 
 5. **Set up the database and migrations**
-```bash
-python manage.py migrate
+  ```bash
+   python manage.py migrate
 
 
-```
+  ```
 
 6. **Run the development server**
 ```bash
@@ -97,7 +97,7 @@ http://127.0.0.1:8000/
 
 ## 📬 Contact
 
--Portfolio [peyush-nuwal-portfolio.vercel.app](https://peyush-nuwal-portfolio.vercel.app/)
+- Portfolio [peyush-nuwal-portfolio.vercel.app](https://peyush-nuwal-portfolio.vercel.app/)
 - LinkedIn: [linkedin.com/in/peyush-nuwal](https://linkedin.com/in/peyush-nuwal)
 - Email: piyushnawal19@gmail.com
 
